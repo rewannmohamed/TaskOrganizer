@@ -1,0 +1,14 @@
+D:\Courses 2025\C#\ProjectCSharpFundamentals\Smart Task Organizer\bin\Debug\net8.0\Smart Task Organizer.exe
+D:\Courses 2025\C#\ProjectCSharpFundamentals\Smart Task Organizer\bin\Debug\net8.0\Smart Task Organizer.deps.json
+D:\Courses 2025\C#\ProjectCSharpFundamentals\Smart Task Organizer\bin\Debug\net8.0\Smart Task Organizer.runtimeconfig.json
+D:\Courses 2025\C#\ProjectCSharpFundamentals\Smart Task Organizer\bin\Debug\net8.0\Smart Task Organizer.dll
+D:\Courses 2025\C#\ProjectCSharpFundamentals\Smart Task Organizer\bin\Debug\net8.0\Smart Task Organizer.pdb
+D:\Courses 2025\C#\ProjectCSharpFundamentals\Smart Task Organizer\obj\Debug\net8.0\Smart Task Organizer.GeneratedMSBuildEditorConfig.editorconfig
+D:\Courses 2025\C#\ProjectCSharpFundamentals\Smart Task Organizer\obj\Debug\net8.0\Smart Task Organizer.AssemblyInfoInputs.cache
+D:\Courses 2025\C#\ProjectCSharpFundamentals\Smart Task Organizer\obj\Debug\net8.0\Smart Task Organizer.AssemblyInfo.cs
+D:\Courses 2025\C#\ProjectCSharpFundamentals\Smart Task Organizer\obj\Debug\net8.0\Smart Task Organizer.csproj.CoreCompileInputs.cache
+D:\Courses 2025\C#\ProjectCSharpFundamentals\Smart Task Organizer\obj\Debug\net8.0\Smart Task Organizer.dll
+D:\Courses 2025\C#\ProjectCSharpFundamentals\Smart Task Organizer\obj\Debug\net8.0\refint\Smart Task Organizer.dll
+D:\Courses 2025\C#\ProjectCSharpFundamentals\Smart Task Organizer\obj\Debug\net8.0\Smart Task Organizer.pdb
+D:\Courses 2025\C#\ProjectCSharpFundamentals\Smart Task Organizer\obj\Debug\net8.0\Smart Task Organizer.genruntimeconfig.cache
+D:\Courses 2025\C#\ProjectCSharpFundamentals\Smart Task Organizer\obj\Debug\net8.0\ref\Smart Task Organizer.dll
