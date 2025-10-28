@@ -12,3 +12,4 @@ D:\Courses 2025\C#\ProjectCSharpFundamentals\Smart Task Organizer\obj\Debug\net8
 D:\Courses 2025\C#\ProjectCSharpFundamentals\Smart Task Organizer\obj\Debug\net8.0\Smart Task Organizer.pdb
 D:\Courses 2025\C#\ProjectCSharpFundamentals\Smart Task Organizer\obj\Debug\net8.0\Smart Task Organizer.genruntimeconfig.cache
 D:\Courses 2025\C#\ProjectCSharpFundamentals\Smart Task Organizer\obj\Debug\net8.0\ref\Smart Task Organizer.dll
+D:\Courses 2025\C#\ProjectCSharpFundamentals\Smart Task Organizer\obj\Debug\net8.0\Smart Task Organizer.sourcelink.json

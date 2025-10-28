@@ -110,10 +110,16 @@ namespace Smart_Task_Organizer.Task
             return false;
         }
         
+        public int getCount()
+        {
+            return categories.Count;
+        }
         public string GenerateReport(string title)
         {
             StringBuilder report = new StringBuilder();
-            
+
+            if (title == null)
+                return "No title";
             foreach (var category in categories)
             {
                 foreach (var task in category.Value)

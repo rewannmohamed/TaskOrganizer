@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "D:\\Courses 2025\\C#\\ProjectCSharpFundamentals\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D51263E1-46FE-4240-A90D-F0E88A571375}|Smart Task Organizer\\Smart Task Organizer.csproj|d:\\courses 2025\\c#\\projectcsharpfundamentals\\smart task organizer\\task\\taskmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D51263E1-46FE-4240-A90D-F0E88A571375}|Smart Task Organizer\\Smart Task Organizer.csproj|solutionrelative:smart task organizer\\task\\taskmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D51263E1-46FE-4240-A90D-F0E88A571375}|Smart Task Organizer\\Smart Task Organizer.csproj|d:\\courses 2025\\c#\\projectcsharpfundamentals\\smart task organizer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D51263E1-46FE-4240-A90D-F0E88A571375}|Smart Task Organizer\\Smart Task Organizer.csproj|solutionrelative:smart task organizer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D51263E1-46FE-4240-A90D-F0E88A571375}|Smart Task Organizer\\Smart Task Organizer.csproj|d:\\courses 2025\\c#\\projectcsharpfundamentals\\smart task organizer\\utilities\\inputhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D51263E1-46FE-4240-A90D-F0E88A571375}|Smart Task Organizer\\Smart Task Organizer.csproj|solutionrelative:smart task organizer\\utilities\\inputhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D51263E1-46FE-4240-A90D-F0E88A571375}|Smart Task Organizer\\Smart Task Organizer.csproj|d:\\courses 2025\\c#\\projectcsharpfundamentals\\smart task organizer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D51263E1-46FE-4240-A90D-F0E88A571375}|Smart Task Organizer\\Smart Task Organizer.csproj|solutionrelative:smart task organizer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D51263E1-46FE-4240-A90D-F0E88A571375}|Smart Task Organizer\\Smart Task Organizer.csproj|d:\\courses 2025\\c#\\projectcsharpfundamentals\\smart task organizer\\task\\taskmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D51263E1-46FE-4240-A90D-F0E88A571375}|Smart Task Organizer\\Smart Task Organizer.csproj|solutionrelative:smart task organizer\\task\\taskmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D51263E1-46FE-4240-A90D-F0E88A571375}|Smart Task Organizer\\Smart Task Organizer.csproj|d:\\courses 2025\\c#\\projectcsharpfundamentals\\smart task organizer\\actions\\actions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -38,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
@@ -60,31 +60,33 @@
               "RelativeDocumentMoniker": "Smart Task Organizer\\Utilities\\InputHelper.cs",
               "ToolTip": "D:\\Courses 2025\\C#\\ProjectCSharpFundamentals\\Smart Task Organizer\\Utilities\\InputHelper.cs",
               "RelativeToolTip": "Smart Task Organizer\\Utilities\\InputHelper.cs",
-              "ViewState": "AgIAAFgAAAAAAAAAAAAwwA4AAAApAAAAAAAAAA==",
+              "ViewState": "AgIAAHkAAAAAAAAAAADwv5YAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-18T13:59:48.549Z"
+              "WhenOpened": "2025-10-18T13:59:48.549Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Courses 2025\\C#\\ProjectCSharpFundamentals\\Smart Task Organizer\\Program.cs",
               "RelativeDocumentMoniker": "Smart Task Organizer\\Program.cs",
               "ToolTip": "D:\\Courses 2025\\C#\\ProjectCSharpFundamentals\\Smart Task Organizer\\Program.cs",
               "RelativeToolTip": "Smart Task Organizer\\Program.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAxwBUAAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAABkAAAAAAAAAAAAwwB0AAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-13T14:14:10.084Z"
+              "WhenOpened": "2025-10-13T14:14:10.084Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "TaskManager.cs",
               "DocumentMoniker": "D:\\Courses 2025\\C#\\ProjectCSharpFundamentals\\Smart Task Organizer\\Task\\TaskManager.cs",
               "RelativeDocumentMoniker": "Smart Task Organizer\\Task\\TaskManager.cs",
               "ToolTip": "D:\\Courses 2025\\C#\\ProjectCSharpFundamentals\\Smart Task Organizer\\Task\\TaskManager.cs",
               "RelativeToolTip": "Smart Task Organizer\\Task\\TaskManager.cs",
-              "ViewState": "AgIAAFQAAAAAAAAAAAAuwFkAAABKAAAAAAAAAA==",
+              "ViewState": "AgIAADsAAAAAAAAAAAAgwHkAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-14T18:09:36.016Z",
               "EditorCaption": ""

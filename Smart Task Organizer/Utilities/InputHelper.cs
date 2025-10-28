@@ -120,20 +120,35 @@ namespace Smart_Task_Organizer.Utilities
 
         public void HandleDelete()
         {
-            Console.WriteLine("Which task you want to delete?");
-            string title = Console.ReadLine()!;
-            insertedTask.DeleteTask(title);
+            if (insertedTask.getCount() == 0)
+                Console.WriteLine("No Tasks");
+            else
+            {
+                Console.WriteLine("Which task you want to delete?");
+                string title = Console.ReadLine()!;
+                insertedTask.DeleteTask(title);
+            }
         }
         public void HandleGenerateReport()
         {
-            Console.WriteLine("Which task you want to generate report?");
-            string title = Console.ReadLine()!;
-            insertedTask.GenerateReport(title);
+            if (insertedTask.getCount() == 0)
+                Console.WriteLine("No Tasks");
+            else
+            {
+                Console.WriteLine("Which task you want to generate report?");
+                string title = Console.ReadLine()!;
+                Console.WriteLine(insertedTask.GenerateReport(title));
+            }
         }
 
         public void HandleDisplayTasks()
         {
-            insertedTask.DisplayAllTasks();
+            if (insertedTask.getCount() == 0)
+                Console.WriteLine("No Tasks");
+            else
+            {
+                insertedTask.DisplayAllTasks();
+            }
         }
 
     }
