@@ -17,7 +17,7 @@ namespace Smart_Task_Organizer.Reminders
         {
             foreach (var reminder in reminders)
             {
-                reminders.Peek();
+                Console.WriteLine(reminders.Peek()); 
             }
         }
         public void ReminderDone()
@@ -29,10 +29,10 @@ namespace Smart_Task_Organizer.Reminders
         {
             while (true)
             {
-                Console.WriteLine("1.create new reminder\n2.display reminders\n 3.finish reminder");
+                Console.WriteLine("1.create new reminder\n2.display reminders\n3.finish reminder\n4.Exit reminder");
                 if (!int.TryParse(Console.ReadLine(), out int choice))
                 {
-                    Console.WriteLine("Please enter a number (1 or 2 or 3). ");
+                    Console.WriteLine("Please enter a number (1 or 2 or 3 or 4). ");
                     continue;//“Don’t execute the switch part below — jump back to the start of the while (true) loop and ask again.”
                 }
                 switch (choice) 
@@ -48,6 +48,8 @@ namespace Smart_Task_Organizer.Reminders
                     case 3:
                         ReminderDone();
                         break;
+                    case 4:
+                        return;
                     default:
                         Console.WriteLine("invalid choice");
                         break;

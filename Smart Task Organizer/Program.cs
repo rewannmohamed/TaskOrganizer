@@ -13,7 +13,6 @@ namespace Smart_Task_Organizer
             Console.WriteLine($"App name:{ AppConfig.AppConfig.AppName}");
             Console.WriteLine(AppConfig.AppConfig.LaunchTime);
             Console.WriteLine(RandomQuotes.GenerateRandomQuote());
-            // TaskManager Tmanager = new TaskManager();
             InputHelper inputHelper = new();
             while (true)
             {
@@ -48,34 +47,6 @@ namespace Smart_Task_Organizer
                 }
             }
 
-            //List<TaskBase> personalTasks = new List<TaskBase>
-            //{
-            //    new PersonalTask("Grocery Shopping", "Buy groceries for the week", new DueDate(4,4,2025), "Supermarket",TaskPriority.Low),
-            //    new PersonalTask("Doctor Appointment", "Annual check-up", new DueDate(20,10,2025), "Clinic",TaskPriority.High)
-            //};
-            //Tmanager.AddTask("Personal", personalTasks);
-            //personalTasks.Add(new WorkTask("login page", "Authentication & validation", "my work",new DueDate(5,5,2025),TaskPriority.Medium));//reference type
-
-
-           // Tmanager.DisplayAllTasks();
-           // ISavable savable = Tmanager;
-           // Console.WriteLine("----------------");
-           // savable.LoadFromFile("login page");
-           // Console.WriteLine("----------------");
-           // savable.SaveToFile("Doctor Appointment");
-           // Console.WriteLine("----------------");
-           // Tmanager.FindByTitle("Gym Session");
-           // Console.WriteLine("----------------");
-           // Tmanager.FindByTitle("login page");
-           // Console.WriteLine("----------------");
-           // Tmanager.DeleteTask("Grocery Shopping");
-           // Console.WriteLine("----------------");
-           // Tmanager.DeleteTask("Grocery");
-           // Console.WriteLine("----------------");
-           // 
-           // Console.WriteLine("----------------");
-           //Console.WriteLine(Tmanager.GenerateReport("Doctor Appointment"));
-           
         }
     }
 }

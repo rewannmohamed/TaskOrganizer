@@ -7,6 +7,10 @@
       "RelativeMoniker": "D:0:0:{D51263E1-46FE-4240-A90D-F0E88A571375}|Smart Task Organizer\\Smart Task Organizer.csproj|solutionrelative:smart task organizer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{D51263E1-46FE-4240-A90D-F0E88A571375}|Smart Task Organizer\\Smart Task Organizer.csproj|d:\\courses 2025\\c#\\projectcsharpfundamentals\\smart task organizer\\reminders\\reminder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D51263E1-46FE-4240-A90D-F0E88A571375}|Smart Task Organizer\\Smart Task Organizer.csproj|solutionrelative:smart task organizer\\reminders\\reminder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D51263E1-46FE-4240-A90D-F0E88A571375}|Smart Task Organizer\\Smart Task Organizer.csproj|d:\\courses 2025\\c#\\projectcsharpfundamentals\\smart task organizer\\utilities\\inputhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D51263E1-46FE-4240-A90D-F0E88A571375}|Smart Task Organizer\\Smart Task Organizer.csproj|solutionrelative:smart task organizer\\utilities\\inputhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -38,11 +42,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
+              "Title": "Reminder.cs",
+              "DocumentMoniker": "D:\\Courses 2025\\C#\\ProjectCSharpFundamentals\\Smart Task Organizer\\Reminders\\Reminder.cs",
+              "RelativeDocumentMoniker": "Smart Task Organizer\\Reminders\\Reminder.cs",
+              "ToolTip": "D:\\Courses 2025\\C#\\ProjectCSharpFundamentals\\Smart Task Organizer\\Reminders\\Reminder.cs",
+              "RelativeToolTip": "Smart Task Organizer\\Reminders\\Reminder.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAgwCIAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T08:54:36.42Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Actions.cs",
               "DocumentMoniker": "D:\\Courses 2025\\C#\\ProjectCSharpFundamentals\\Smart Task Organizer\\Actions\\Actions.cs",
               "RelativeDocumentMoniker": "Smart Task Organizer\\Actions\\Actions.cs",
@@ -54,7 +71,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "InputHelper.cs",
               "DocumentMoniker": "D:\\Courses 2025\\C#\\ProjectCSharpFundamentals\\Smart Task Organizer\\Utilities\\InputHelper.cs",
               "RelativeDocumentMoniker": "Smart Task Organizer\\Utilities\\InputHelper.cs",
@@ -62,8 +79,7 @@
               "RelativeToolTip": "Smart Task Organizer\\Utilities\\InputHelper.cs",
               "ViewState": "AgIAAHkAAAAAAAAAAADwv5YAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-18T13:59:48.549Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-18T13:59:48.549Z"
             },
             {
               "$type": "Document",
@@ -73,14 +89,14 @@
               "RelativeDocumentMoniker": "Smart Task Organizer\\Program.cs",
               "ToolTip": "D:\\Courses 2025\\C#\\ProjectCSharpFundamentals\\Smart Task Organizer\\Program.cs",
               "RelativeToolTip": "Smart Task Organizer\\Program.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAwwB0AAAAbAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-13T14:14:10.084Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "TaskManager.cs",
               "DocumentMoniker": "D:\\Courses 2025\\C#\\ProjectCSharpFundamentals\\Smart Task Organizer\\Task\\TaskManager.cs",
               "RelativeDocumentMoniker": "Smart Task Organizer\\Task\\TaskManager.cs",
@@ -88,12 +104,11 @@
               "RelativeToolTip": "Smart Task Organizer\\Task\\TaskManager.cs",
               "ViewState": "AgIAADsAAAAAAAAAAAAgwHkAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-14T18:09:36.016Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-14T18:09:36.016Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "AppConfig.cs",
               "DocumentMoniker": "D:\\Courses 2025\\C#\\ProjectCSharpFundamentals\\Smart Task Organizer\\AppConfig\\AppConfig.cs",
               "RelativeDocumentMoniker": "Smart Task Organizer\\AppConfig\\AppConfig.cs",
@@ -105,7 +120,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Enums.cs",
               "DocumentMoniker": "D:\\Courses 2025\\C#\\ProjectCSharpFundamentals\\Smart Task Organizer\\Utilities\\Enums.cs",
               "RelativeDocumentMoniker": "Smart Task Organizer\\Utilities\\Enums.cs",
@@ -117,7 +132,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "ISavable.cs",
               "DocumentMoniker": "D:\\Courses 2025\\C#\\ProjectCSharpFundamentals\\Smart Task Organizer\\Interfaces\\ISavable.cs",
               "RelativeDocumentMoniker": "Smart Task Organizer\\Interfaces\\ISavable.cs",
