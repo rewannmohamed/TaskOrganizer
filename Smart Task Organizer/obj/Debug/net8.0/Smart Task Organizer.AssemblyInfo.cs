@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Smart Task Organizer")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e021f4a11368333bce2044cf6e4ef7f482b72950")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e025581b68cca3033bbcd236e87d0f753e788df9")]
 [assembly: System.Reflection.AssemblyProductAttribute("Smart Task Organizer")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Smart Task Organizer")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

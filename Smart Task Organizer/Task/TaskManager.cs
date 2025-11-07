@@ -133,5 +133,20 @@ namespace Smart_Task_Organizer.Task
             }
             return infoOfTask;
         }
+
+
+        public TaskBase? FindAndGet(string title)
+        {
+            foreach (var category in categories)
+            {
+                foreach (var task in category.Value)
+                {
+                    if (task.titleTask.Equals(title, StringComparison.OrdinalIgnoreCase))
+                        return task;
+                }
+            }
+            return null;
+        }
+
     }
 }

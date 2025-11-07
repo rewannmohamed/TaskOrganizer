@@ -25,13 +25,16 @@ namespace Smart_Task_Organizer.Utilities
             title2 = temp;
         }
 
-        public void inputTask()
+        public void inputTask(Stack<(string ActionType, TaskBase Task)> actions)
         {
             List<TaskBase> tasks = new List<TaskBase>();
-            tasks.Add(inputNewTask(out string category));
+            TaskBase newTask = inputNewTask(out string category);
+            tasks.Add(newTask);
             insertedTask.AddTask(category, tasks);
             Console.WriteLine("\nTask added successfully!");
             insertedTask.DisplayAllTasks();
+
+            actions.Push(("Add", newTask));
         }
 
         public TaskBase inputNewTask(out string category)
@@ -118,7 +121,7 @@ namespace Smart_Task_Organizer.Utilities
             }
         }
 
-        public void HandleDelete()
+        public void HandleDelete(Stack<(string ActionType, TaskBase Task)> actions)
         {
             if (insertedTask.getCount() == 0)
                 Console.WriteLine("No Tasks");
@@ -126,7 +129,12 @@ namespace Smart_Task_Organizer.Utilities
             {
                 Console.WriteLine("Which task you want to delete?");
                 string title = Console.ReadLine()!;
-                insertedTask.DeleteTask(title);
+                TaskBase? foundTask = insertedTask.FindAndGet(title);
+                if (foundTask != null)
+                {
+                    insertedTask.DeleteTask(title);
+                    actions.Push(("Delete", foundTask));
+                }
             }
         }
         public void HandleGenerateReport()
@@ -148,6 +156,43 @@ namespace Smart_Task_Organizer.Utilities
             else
             {
                 insertedTask.DisplayAllTasks();
+            }
+        }
+
+        public void HandleSearch()
+        {
+            Console.Write("Enter Title:");
+            string title = Console.ReadLine()!;
+            insertedTask.FindByTitle(title);
+        }
+
+        public void HandleUndo(Stack<(string ActionType, TaskBase Task)> actions)
+        {
+            if (actions.Count == 0)
+            {
+                Console.WriteLine("No actions to undo!");
+                return;
+            }
+
+            var lastAction = actions.Pop();
+
+            switch (lastAction.ActionType)
+            {
+                case "Add":
+                    insertedTask.DeleteTask(lastAction.Task.titleTask);
+                    Console.WriteLine($"Undo: Removed recently added task '{lastAction.Task.titleTask}'.");
+                    break;
+
+                case "Delete":
+                    insertedTask.AddTask(
+                        lastAction.Task is PersonalTask ? "Personal Task" : "Work Task",
+                        new List<TaskBase> { lastAction.Task });
+                    Console.WriteLine($"Undo: Restored deleted task '{lastAction.Task.titleTask}'.");
+                    break;
+
+                default:
+                    Console.WriteLine("Unknown action type.");
+                    break;
             }
         }
 

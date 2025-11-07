@@ -14,6 +14,7 @@ namespace Smart_Task_Organizer
             Console.WriteLine(AppConfig.AppConfig.LaunchTime);
             Console.WriteLine(RandomQuotes.GenerateRandomQuote());
             InputHelper inputHelper = new();
+            Stack<(string ActionType, TaskBase Task)> actions = new();
             while (true)
             {
                 Console.WriteLine("1. Add Task\n2. View Tasks\n3. Delete Task\n4. Generate Report\n5. reminder\n6. Undo Last Action\n7. Search task\n8. Exit\n");
@@ -21,13 +22,13 @@ namespace Smart_Task_Organizer
                 switch (choice) 
                 {
                     case 1:  
-                        inputHelper.inputTask();
+                        inputHelper.inputTask(actions);
                         break;
                     case 2:
                         inputHelper.HandleDisplayTasks();
                         break;
                     case 3:
-                        inputHelper.HandleDelete();
+                        inputHelper.HandleDelete(actions);
                         break;
                     case 4:
                         inputHelper.HandleGenerateReport();
@@ -37,10 +38,11 @@ namespace Smart_Task_Organizer
                         reminder.HandleReminder();
                         break;
                     case 6:
-
-                    //case 7:
-                    //    Tmanager.FindByTitle(Console.ReadLine()!);
-                    //    break;
+                        inputHelper.HandleUndo(actions);
+                        break;
+                    case 7:
+                        inputHelper.HandleSearch();
+                        break;
                     case 8:
                         return;
                 
